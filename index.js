@@ -8,7 +8,8 @@ import Bananas from './Bananas';
 import LotsOfGreetings from './LotsOfGreetings';
 import BlinkApp from './Blink';
 import LotsOfStyles from './LotsOfStyles';
+import FixedDimensionsBasics from './FixedDimensionsBasics';
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent('AwesomeProject', () => LotsOfStyles);
+AppRegistry.registerComponent('AwesomeProject', () => FixedDimensionsBasics);
