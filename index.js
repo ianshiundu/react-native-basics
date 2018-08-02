@@ -14,7 +14,8 @@ import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
 import HandlingTextInput from './HandlingTextInput';
+import ButtonBasics from './ButtonBasics';
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent('AwesomeProject', () => HandlingTextInput);
+AppRegistry.registerComponent('AwesomeProject', () => ButtonBasics);
