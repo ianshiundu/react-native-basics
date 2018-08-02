@@ -13,7 +13,8 @@ import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
+import HandlingTextInput from './HandlingTextInput';
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent('AwesomeProject', () => AlignItemsBasics);
+AppRegistry.registerComponent('AwesomeProject', () => HandlingTextInput);
