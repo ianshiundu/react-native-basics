@@ -15,7 +15,8 @@ import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
 import HandlingTextInput from './HandlingTextInput';
 import ButtonBasics from './ButtonBasics';
+import Touchables from './Touchables';
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent('AwesomeProject', () => ButtonBasics);
+AppRegistry.registerComponent('AwesomeProject', () => Touchables);
